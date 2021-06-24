@@ -1,0 +1,259 @@
+@media screen and (max-width:768px) {
+
+    #header {
+        display: flex !important;
+        /*text-align: center;*/
+        align-items: center;
+            padding: 4px 20px 2px;
+    }
+
+    #menu a:hover {
+        font-size: 1em;
+    }
+
+    #hamburger-content {
+        display: none;
+    }
+
+    #hamburger-button,
+    #hamburger-sidebar,
+    .hamburger-activated #hamburger-overlay {
+        display: block;
+    }
+
+    .hamburger-activated #hamburger-sidebar {
+        transform: translateX(0);
+    }
+
+    #menu li {
+        font-size: 1em;
+    }
+
+    #menu li::after {
+        content: none;
+    }
+
+    #slider {
+        height: 80vh;
+    }
+
+    .background {
+        height: 80vh;
+    }
+
+    #slider img {
+        height: 80vh;
+    }
+
+    .pres h1 {
+        font-size: 2em;
+    }
+
+    .pres {
+        width: 65%;
+        padding: 8px;
+        font-size: 1.2rem;
+    }
+
+    #me {
+        text-align: center;
+    }
+
+    #me .row {
+        display: block;
+    }
+
+    #me div img {
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+    }
+
+    .dates {
+        margin: 0 auto;
+    }
+
+    .studyItem .rightArea {
+        border: none;
+    }
+
+    .studyBox {
+        margin-left: 35px;
+        padding: 22px 40px 6px 47px;
+    }
+
+    .arrowpart {
+        margin-left: 20px;
+    }
+    
+    #contact .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .row {
+        margin-left: 0 !important;
+    }
+
+    .pres {
+        width: 73%;
+        font-size: 0.9rem;
+    }
+
+
+    #slider,
+    .background,
+    #slider img {
+        height: 45vh;
+    }
+
+    #menu li {
+        font-size: 0.8em;
+    }
+
+    .pres h1 {
+        font-size: 1.5em;
+    }
+
+    #me {
+        padding: 30px 5px;
+    }
+
+    #me h1,
+    #formation h1,
+    #experience h1,
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #me div p {
+        font-size: 0.9em;
+    }
+
+    #me div img {
+        padding-bottom: 0;
+    }
+
+    .dates {
+        margin: 0 auto;
+    }
+
+    .arrowpart {
+        float: none;
+        width: 100%;
+        height: 40px;
+        background: url(../images/arrow-top.png) no-repeat 45% 101%;
+    }
+
+    .studyBox {
+        margin-left: -11px;
+        padding: 20px 12px;
+        text-align: center;
+    }
+
+    #competence {
+        background: none;
+        padding-bottom: 0;
+    }
+
+    #formation .fa,
+    #experience .fa {
+        width: 100%;
+    }
+
+    #competence .left-float,
+    #competence .right-float {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px 5%;
+        float: none;
+    }
+
+    #competence .left-float {
+        padding: 0 2px;
+    }
+
+    .right-float {
+        background: #f3f3f3;
+    }
+
+    #portfolio .nav {
+        display: block;
+    }
+
+    .overlay {
+    max-width: 100%;
+    padding: 2px;
+
+    }
+
+    .compItems li {
+        height: auto;
+        padding: 0 0.8em;
+        margin: 2px;
+    }
+
+    #portfolio h1 {
+        margin-bottom: 20px;
+    }
+
+    #myTabContent {
+        padding: 0 50px;
+    }
+
+    #loisir {
+        padding: 20px;
+    }
+
+    #loisir p {
+        font-size: 1.2em;
+    }
+
+    #contact .row {
+        display: block;
+    }
+
+    #contact {
+        padding: 36px 20px 16px;
+
+    }
+
+    #contact ul {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+
+    #contact .col-8 {
+        max-width: 100%;
+    }
+
+    #contact .col-4 {
+        max-width: 100%;
+    }
+
+    #contact h3 {
+        width: 100%;
+    }
+
+    
+
+    #footer p {
+        font-size: 0.7em;
+    }
+
+    #toDown {
+        font-size: 0.9em;
+        padding: 10px;
+        width: 36px;
+    }
+}
