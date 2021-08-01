@@ -876,6 +876,7 @@ textarea {
 
     .row {
         margin-left: 0 !important;
+        border-radius: 2rem;
       
     }
 
