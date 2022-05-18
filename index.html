@@ -1,327 +1,351 @@
 <!DOCTYPE html>
-<html>
-<html lang="fr">
+<html lang="en" data-theme="dark">
 
 <head>
-    <!-- Head site -->
-    <title>Radouane Tamouss | Portfolio - Etudiant génie informatique </title>
-    <meta name="robots" content="index,follow" />
-    <meta name="description" content="Je m'appelle Radouane Tamouss,j'ai 18 ans, je suis Etudiant en génie informatique , Voici mon site web  et CV" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/kse0maf.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Primary Meta Tags -->
+    <title>Radouane TAMOUSS | Web Developer - Computer Science Student </title>
+    <meta name="title" content="Radouane TAMOUSS | Web Developer - Computer Science Student">
     <meta name="Keywords" content="Radouane tamouss,Radouane Portfolio,Radouane Front-End Developer, Developer, UI Engineer, UI Designer, maroc, Developer El Jadida, Azemmour, Radouane Mobile Dev El jadida , Radouane github, Radouane ESTSB, radouan laravel , radouane github, radouane junior web dev ,junior web dev el jadida, computer science student el jadida, radouane html, css">
+    <meta name="description" content="Front end Developer and Designer with a keen eye for aesthetics, focused on designing and building responsive and pixel perfect websites to give your brand the sleek online presence it deserves.">
 
-    <meta name="author" content="Radouane Tamouss" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://radouane-tamouss.github.io/">
+    <meta property="og:title" content="Radouane TAMOUSS | Web Developer - Computer Science Student">
+    <meta property="og:description" content="Front end Developer and Designer with a keen eye for aesthetics, focused on designing and building responsive and pixel perfect websites to give your brand the sleek online presence it deserves.">
+    <meta property="og:image" content="/assets/img/seo-img.png">
 
-    <!-- CSS & frameworks -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/resposive.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126122728-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-126122728-1');
-</script>
-
-    <!-- Responsive -->
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://radouane-tamouss.github.io/">
+    <meta property="twitter:title" content="Radouane TAMOUSS | Web Developer - Computer Science Student">
+    <meta property="twitter:description" content="Front end Developer and Designer with a keen eye for aesthetics, focused on designing and building responsive and pixel perfect websites to give your brand the sleek online presence it deserves.">
+    <meta property="twitter:image" content="https://radouane-tamouss.github.io/assets/img/seo-img.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    
+    <!-- Google Verification tag -->
+    <meta name="google-site-verification" content="KOQzvRehV2wImo6OJO8Iem8SXZknToV3QZgqPGLNo2c" />
 </head>
 
-<body id="body">
-    <div id="home"></div>
-    <main>
-        <!-- NAV ---------------------------------------->
-        <header id="header" class="flex  sticky-top">
-           
-            <div id="hamburger">
-                <div id="hamburger-content">
-                    <nav id="menu" role="navigation">
-                        <ul class="nav-pills" id="pills-tab" role="tablist">
-                            <li>
-                                <a href="#me">A PROPOS DE MOI</a>
-                            </li>
-                            <li>
-                                <a href="#formation">PARCOURS
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="#competence">COMPÉTENCES</a>
-                            </li>
-                    
-                            <li>
-                                <a href="#contact">CONTACT</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <button id="hamburger-button">&#9776;</button>
-                <div id="hamburger-sidebar">
-                    <div id="hamburger-sidebar-header"></div>
-                    <div id="hamburger-sidebar-body"></div>
-                </div>
-                <div id="hamburger-overlay"></div>
-            </div>
-        </header>
-        <!-- NAV END ---------------------------------------->
+<body class="body-wrap">
+    <!-- <div class="intro">
+        <div class="intro-text">
+            <h2 class="hide">
+                <span class="text">Creating innovations</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">For Everyday</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">people.</span>
+            </h2>
+        </div>
+        <button class="intro-btn" onclick="fadeOut()">EXPLORE</button>
+    </div> -->
+    <div class="slider"></div>
+    <div class="slider-2"></div> 
 
-        <!-- SLIDER ---------------------------------------->
+    <!-- custom mouse-->
+    <div class="cursor-effect"></div>
 
-        <section id="slider">
-            <div>
-                <img src="images/slider.jpg" alt="Background laptop">
+    <!-- content -->
+    <div class="content">
+        <!-- Header Section -->
+        <header>
+            
+            <!-- Shapes -->
+            <div class="effect-wrap">
+                <div class="effect effect-1"></div>
+                <div class="effect effect-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="effect effect-3"></div>
+                <div class="effect effect-4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
-            <div class="background"></div>
-            <div class="pres row align-items-center headline">
-                <h1>Je suis
-                    <br />
-                    <span class="tagline">Radouane Tamouss</span>
-                    <br />
-                    <span class="int tagline">Etudiant génie informatique</span>
-                   
-                </h1>
-            </div>
-            <a id="toDown" title="Go to down" href="#me" class="fa fa-chevron-down punchline">
+            <a href="index.html" class="logo">
+                <img src="./assets/img/favicon.ico" alt="">
             </a>
-        </section>
-        <!-- SLIDER END ---------------------------------------->
 
-        <!-- ABOUT ME ---------------------------------------->
-        <section id="me" class="flex">
-            <div class="container">
-                <div class="row w-100 align-items-center">
-                    <div class="col">
-                        <h1 class="titreBorder">A propos de moi</h1>
-                        <p>
-                            Je m’appelle <strong>Radouane Tamouss</strong>,
-                            <br>
-                            Étudiant  à l’EST de Sidi Bennour en 2ème année génie informatique, je suis actuellement à la recherche d’un stage PFE dans le cadre informatique à la durée de 2 mois.
-
-       Ce stage serait l'occasion d'enrichir mon expérience professionnelle. À plus court terme.
-
-Ma passion pour l'informatique, couplée aux connaissances acquises dans le cadre de mon parcours universitaire.
-
- 
-                        </p>
-                        <br>
-                        <a target="_blank" href="Radouane TAMOUSS resume.pdf" class="btn btn-cv">TÉLÉCHARGER MON CV</a>
-                    </div>
-                 
-                </div>
-            </div>
-        </section>
-        <!-- ABOUT ME end ---------------------------------------->
-
-        <!-- FORMATION ---------------------------------------->
-        <section id="formation">
-            <div class="container">
-                <div class="row">
-                    <div class="w-100">
-                        <i class="fa fa-graduation-cap"></i>
-                        <h1>Mon parcours</h1>
-                    </div>
-                </div>
+            <div class="inner">
+                <span>i</span>
+                <h1>Hello 👋</h1>
+                <p>
+                    Thanks for visiting my Portfolio website! If you like what you see and you need me to work on a
+                    product, send me a <a href="#contact">message</a>
+                </p>
             </div>
 
-            <div class="container">
-                <div class="row studyItem">
-                  
-                </div>
-                <div class="row studyItem">
-                    
-                </div>
-                <div class="row studyItem">
-                   
-                </div>
-                <div class="row studyItem">
-                    
-                </div>
-                <div class="row studyItem">
-                    
-                </div>
-                <div class="row studyItem">
-                    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-                        <div class="dates">
-                            <h5><br>2020 – En Cours
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-                        <div class="arrowpart"></div>
-                        <div class="studyBox">
-                            <h4>DUT génie informatique</h4>
-                            <h5>Ecole supérieure de technologie Sidi bennour EL JADIDA.  </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="row studyItem">
-                    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-                        <div class="dates">
-                            <h5><br>2019 – 2020</h5>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-                        <div class="arrowpart"></div>
-                        <div class="studyBox">
-                            <h4>Baccalauréat Scientifique</h4>
-                            <h5>Lycée “Moulay Bouchaib” à AZEMMOUR.</h5>
-                        </div>
-                    </div>
-                </div>
+            <div class="toggle-container">
+                <input type="checkbox" id="switch" name="theme" /><label class="toggle" for="switch">Toggle</label>
             </div>
-        </section>
-        <!-- FORMATION END ---------------------------------------->
 
-       
-        <!-- EXPERIENCE END ---------------------------------------->
+            <div class="landing-text">
+                <h1>Radouane TAMOUSS</h1>
+                <h5>I create beautiful websites your users will love</h5>
+            </div>
 
-        <!-- COMPETENCE  ---------------------------------------->
-        <section id="competence">
-            <div class="left-float">
-                <div class="compLeft animated-element slide-left">
-                    <h3><i class="fa fa-code"></i>Compétences techniques</h3>
-                    <ul class="compItems">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>bootstrap</li>
-                        <li>Laravel</li>
-                       
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>JAVA</li>
-                         <li>MySQL</li>
-                        <li>Oracle</li>
-                        <li>PLSQL</li>
-                        <li>VB.NET</li>
+        </header>
+
+        <main>
+            <!-- About Section -->
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="profile-img">
+                        <img src="./assets/img/img.jpeg" alt="Radouane TAMOUSS">
+                    </div>
+                    <div class="about-content">
+                        <div class="about-heading">
+                            <h2>About Me</h2>
+                        </div>
+                        <p>Hi, Radouane TAMOUSS, a passionate
+                            web developer from Morocco. I love to build responsive
+                            user-friendly websites that look visually appealing, with nice and fluid interactions, close
+                            attention to User Experience, and are accessible to the visually impaired (Web Accessibility
+                            Advocate)<br><br>
+                            I develop websites with HTML, CSS, JavaScript, PHP, Laravel and more. I always work towards achieving best result
+                            on each project I lay my hands on. </p>
+
+                        <div class="about-cta">
+                            <!-- <a href="#contact" class="skills-cta">Hire me</a> -->
+                            <span>—</span>
+                            <a href="./about/" class="exp-cta">More about me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services-content">
+                        <div class="services-heading">
+                            <h2>My Services</h2>
+                        </div>
+                    </div>
+                    <div class="service-item-container">
+                        <div class="service-item">
+                            <ion-icon name="color-wand-outline"></ion-icon>
+                            <h5>Web/UI Design</h5>
+                            <p>I work with certain design tools to create high-fidelity designs and prototypes. I design
+                                accessible and usable products which aid business growth.</p>
+                        </div>
+                        <div class="service-item">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                            <h5>Web Development</h5>
+                            <p>I use various web technologies to develop attractive,creative and responsive website layouts websites which converts visitors customers</p>
+                        </div>
+                        <div class="service-item">
+                            <ion-icon name="color-palette-outline"></ion-icon>
+                            <h5>Graphic Design</h5>
+                            <p>I create captivating and high quality graphics and logo designs where user readability,
+                                coupled with best design practices are prioritized</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Portfolio Section -->
+            <section id="projects" class="project">
+                <h5>— check out some </h5>
+                <h2>Stuff I’ve worked on 💻</h2>
+                <div class="project-item-container">
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="https://github.com/radouane-tamouss/Typing-Speed-Test" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                           <a href="http://typing.rf.gd" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="open-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                                Typing Speed Test
+                            </h3>
+                            <h5>HTML/SCSS &nbsp; JS &nbsp; Bootstrap</h5>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="https://github.com/radouane-tamouss/DataInterventions" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                           <a href="https://dataxpress.info" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="open-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                                DataInterventions
+                            </h3>
+                            <h5>HTML &nbsp; CSS &nbsp; JS &nbsp; PHP &nbsp; Bootstrap</h5>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="https://github.com/radouane-tamouss/radouane-tamouss.github.io" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                           <a href="https://radouane-tamouss.github.io" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="open-outline"></ion-icon>
+                            </a> 
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                                Radouane TAMOUSS
+                            </h3>
+                            <h5>HTML/SCSS &nbsp; JS &nbsp;</h5>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="https://github.com/radouane-tamouss/pfe-clothing-online" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
                         
-                    </ul>
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                               Redone fashion
+                            </h3>
+                            <h5>Laravel &nbsp; Bootsrap &nbsp; JS ...</h5>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="hhttps://github.com/radouane-tamouss/quiz-app-2" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                           <a href="https://radouane-tamouss.github.io/quiz-app-2/" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="open-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                                Quiz App
+                            </h3>
+                            <h5>HTML &nbsp; CSS &nbsp; JS</h5>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-box__link">
+                            <a href="https://github.com/radouane-tamouss/COVID19--Tracker_PHP-project" target="_blank"
+                                rel="noopener noreferrer">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                          
+                        </div>
+                        <div class="project-box__content">
+                            <h3>
+                                Covid 19 - Tracker
+                            </h3>
+                            <h5>HTML &nbsp; Bootstrap &nbsp; PHP &nbsp; API</h5>
+                        </div>
+                    </div>
+                </div>
 
-                    <h3><i class="fa fa-globe"></i>Langues</h3>
-                    <ul class="compItems">
-                        <li>Arabe : langue maternelle</li>
-                        <li>Français : Courant</li>
-                        <li>Anglais : Courant </li>
-                    </ul>
+
+            </section>
+
+            <!--Contacts-->
+            <!-- <section class="contact" id="contact">
+                <div class="contact-title">
+                    <h5>— contact me</h5>
+                    <h2>🚀Let's collaborate </h2>
+                </div>
+                <div class="container">
+                    <div class="sub">
+                        Got a question, proposal or project or want to work <br>
+                        together on something? Feel free to reach out.
+                    </div>
+                    <form action='POST' data-netlify='true'>
+                        <div class="input-row">
+                            <div class="side"><label for="name">Your Name</label><input placeholder="Enter Your name"
+                                    name="name" id="name" type="text" required="" value="" /></div>
+                            <div class="side"><label for="email">Your Email</label><input
+                                    placeholder="Enter Your email address" name="email" id="email" type="email"
+                                    required="" value="" /></div>
+                        </div>
+                        <div class="textarea">
+                            <label for="message">Your Message</label><textarea name="message" id="message"
+                                placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can"
+                                required=""></textarea>
+                        </div>
+                        <button type="submit">Send Message.</button>
+                    </form>
+                </div>
+            </section> -->
+        </main>
+
+        <footer class="footer">
+            <hr>
+            <div class="footer-head">
+                <h5>Say Hello</h5>
+                <div class="link-container">
+                    <div class="footer-links">
+                       
+                        <p><a data-text="atamousse.red@gmail.com"
+                                href="atamousse.red@gmail.com">atamousse.red@gmail.com</a></p>
+                    </div>
+                    <div class="footer-links">
+                        <p><a href="https://github.com/radouane-tamouss"><i class="bi bi-github"></i></a></p>
+                        <p><a href="https://linkedin.com/in/radouane-tamouss"><i class="bi bi-linkedin"></i></a></p>
+                        <p><a href="https://codepen.io/radouane-tamouss"><i class="fab fa-codepen"></i></a></p>
+                    </div>
                 </div>
             </div>
-
-            <div class="right-float">
-                <div class="compRight animated-element slide-right">
-                    <h3 class="titreBorder"><i class="fa fa-briefcase"></i>Outils</h3>
-                    <ul class="styled-list large">
-                        <br>
-                        <li>Graphisme : Photoshop, Illustrateur,Premiere PRO, Adobe XD, Figma, Canva</li>
-                        <li>Systèmes : Windows,GNU Linux(Ubuntu)</li>
-                        <li>Méthodes d'analyse et conceptions : MERISE, UML</li>
-                        <li>Bureautique : MS Office </li>
-                        <li>Logiciels de simulation : Cisco Packet Tracer </li>
-                    </ul>
-                    <h3 class="titreBorder"><i class="fa fa-user-circle"></i>Savoir-être</h3>
-                    <br >
-                    <br >
-                        <li>Rigoureux</li>   
-                    <li> Autonome  </li> 
-                    <li> Adaptable </li>
-                    <li> Organisé </li>
-                  
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </section>
-
-        <!-- COMPETENCE END  ---------------------------------------->
-
-        <!-- PORFTFOLIO END ---------------------------------------->
-
-        <!-- LOISIR  ---------------------------------------->
-        <section id="loisir">
-
-            <p href="" class="typewrite" data-period="800" data-type='[ "le Football.", "faire du vélo.", "écouter de la musique.", "la photographie." , "le développement web."]'>
-                <span class="wrap"></span>
-            </p>
-        </section>
-        <!-- LOISIR END  ---------------------------------------->
-
-        <!-- CONTACT  ---------------------------------------->
-        <section id="contact">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="titreBorder">Get In Touch</h1>
-                </div>
-                <div class="col-lg-12">
-                    <ul class="networks">
-                        <li>
-                            <a href="https://www.linkedin.com/in/radouane-tamouss-778139206/" target="_blank" rel="noopener" class="fa fa-linkedin"></a>
-                        </li>
-              
-                       
-                        <li>
-                            <a href="https://twitter.com/RedOuan06613042" target="_blank" rel="noopener" class="fa fa-twitter"></a>
-                        </li>
-                        
-                       
-                        <li>
-                            <a href="https://github.com/radouane-tamouss" target="_blank" rel="noopener" class="fa fa-github"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.pinterest.fr/atamoussered/_saved/" target="_blank" rel="noopener" class="fa fa-pinterest"></a>
-                        </li>
-                       
-                    </ul>
-                </div>
-            </div>
-           
-               
-
-
-        </section>
-        <!-- CONTACT END ---------------------------------------->
-
-        <!-- FOOTER ---------------------------------------->
-        <footer id="footer">
-            <p> &copy; 2021 All rights reserved | Radouane Tamouss |</a>
-            </p>
-           
-
+            <div class="footer-copy"> Radouane TAMOUSS 2022</div>
         </footer>
-
-        <a id="toTop" title="Go to top" href="#home" class="fa fa-chevron-up">
-        </a>
-    </main>
-
-    <!-- FOOTER END  ---------------------------------------->
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-    <script>
-    $("form").each(function() {
-    $(this).find(':input[type="submit"]').prop('disabled', true);
-            });
-        function correctCaptcha() {
-    $("form").each(function() {
-        $(this).find(':input[type="submit"]').prop('disabled', false);
-            });
-        }
-
-    </script>
-    
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/app.js" async defer></script>
-
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
